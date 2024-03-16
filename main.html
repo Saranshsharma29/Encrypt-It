@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encrypt It</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/fav.png">
+</head>
+<body>
+  <!-- <div>
+    
+    <img id="image" src="images/key.jpg" alt=" ">
+  </div> -->
+    <div>
+      <label for="originalMessage">Original Message:</label>
+      <input class="inp" type="text" id= "originalMessage" required>
+    </div>
+    <!-- <div>
+      <label for="key">Key:</label>
+      <input type="number" id="key" required>
+    </div> -->
+    <div>
+      <button id="btn" onclick="encrypt()">Encrypt</button>
+      <button id="btn" onclick="decrypt()">Decrypt</button>
+    </div>
+    <div>
+    <label for="encryptedMessage">Encrypted Message:</label>
+    <input class="inp" type="text" id="encryptedMessage" readonly>
+  </div>
+  <div>
+    <label for="decryptedMessage">Decrypted Message:</label>
+    <input class="inp" type="text" id="decryptedMessage" readonly>
+  </div>
+</body>
+<script src="apps.js"></script>
+</html>
