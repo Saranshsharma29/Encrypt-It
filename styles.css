@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
 div{
-    /* background-color: rgb(125, 197, 245); */
+    
     padding: 10px;
     margin:85px 10px;
     border-radius: 10px;
-    /* align-items:center; */
-    /* justify-content:center; */
     text-align:center;
     font-family: "Kumar One", serif;
     font-size: 20px;
@@ -34,28 +32,8 @@ div{
     height:25px;
 }
 
-/*#image{
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-
-    background-image: url("key.jpg");
-
-  /* Add the blur effect */
-  /* filter: blur(8px);
-  -webkit-filter: blur(8px); */
-
-  /* Full height */
-  /* height: 100%; */
-
-  /* Center and scale the image nicely */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/ 
-
 body {
-    background-image: url('images/key.jpg');
+    background-image: url('key.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
