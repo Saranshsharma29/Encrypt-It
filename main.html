@@ -5,12 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Encrypt It</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="fav.png">
+  <link rel="icon" type="image/x-icon" href="images/fav.png">
 </head>
 <body>
+  <!-- <div>
+    
+    <img id="image" src="images/key.jpg" alt=" ">
+  </div> -->
+  <div>
+    <h1><u>ENCRYPT IT</u></h1>
+  </div>
     <div>
       <label for="originalMessage">Original Message:</label>
       <input class="inp" type="text" id= "originalMessage" required>
+    </div>
+    <div>
+      <label for="key">Key:</label>
+      <input type="number" id="key" required>
     </div>
     <div>
       <button id="btn" onclick="encrypt()">Encrypt</button>
