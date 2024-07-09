@@ -32,6 +32,10 @@ div{
     height:25px;
 }
 
+#key{
+    border-radius: 7px;
+}
+
 body {
     background-image: url('key.jpg');
     background-position: center;
