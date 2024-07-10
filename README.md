@@ -1,32 +1,33 @@
 # Encrypt-It
-A simple web application to encrypt and decrypt messages using a shift cipher.
+Encrypt It is a simple web application for encrypting and decrypting messages using a custom encryption algorithm based on a specified key.
 
 ## Technologies Used
 
-- HTML
-- CSS 
-- JavaScript
+- HTML: Contains the structure and user interface elements.
+- CSS : Provides styling for the HTML elements.
+- JavaScript : Implements the encryption and decryption logic.
 
 ## Functionality
 
-The application allows users to encrypt and decrypt messages by shifting the alphabet by 5 positions.
+The application allows users to encrypt and decrypt messages based on key provided by user.
 
 ## Usage
 
 1. Open the `index.html` file in a web browser.
-2. Enter the original message in the "Original Message" input field.
-3. Click the "Encrypt" button to encrypt the message or the "Decrypt" button to decrypt it.
-4. The encrypted or decrypted message will be displayed in the respective input field.
+2. Enter your message in the "Original Message" input field.
+3. Provide a numeric key in the "Key" input field.(between 0 and 93)
+4. Click on the "Encrypt" button to encrypt the message.
+5. Click on the "Decrypt" button to decrypt the message using the same key
 
 ## JavaScript Functions
 
 ### encrypt()
 
-This function takes the original message, shifts each alphabetical character by 5 positions, and updates the encrypted message in the input field.
+This function takes user-inputted data, specifically an original message and a numeric key, to perform a basic encryption process. It utilizes a predefined alphabet that includes uppercase and lowercase letters, numbers, and special characters. For each character in the original message, the function computes its index in the alphabet and shifts it forward by the key amount, wrapping around using modulus arithmetic to handle overflow.This function ensures that the encryption operation is straightforward and allows users to protect their messages using a simple substitution cipher technique.
 
 ### decrypt()
 
-This function takes the original message, shifts each alphabetical character by -5 positions (or adds 21 positions), and updates the decrypted message in the input field.
+This function reverses the encryption process by taking an encrypted message and the same numeric key used for encryption. It also operates on the same alphabet and uses modulus arithmetic to reverse the shift applied during encryption.
 
 ## CSS
 
